@@ -1,0 +1,23 @@
+{
+  "nut_max": 63.01812450748621,
+  "idler_gear_min": 69.39671905328407,
+  "idler_clip_min": 17.393063583815028,
+  "compound_gear_min": 65.75828460038986,
+  "compound_clip_min": 0.9988122233020191,
+  "corner_min": 60.0,
+  "bearing_min": {
+    "Upper": 189,
+    "Left": 204,
+    "Right": 185,
+    "Lower": 202
+  },
+  "motor_screw_min": {
+    "Upper": 50,
+    "Lower": 67
+  },
+  "motor_min": {
+    "Cable Connector": 23.145454545454545,
+    "Motor Pinion": 51.430470914127426,
+    "Red Cable": 4.8746543778801845
+  }
+}

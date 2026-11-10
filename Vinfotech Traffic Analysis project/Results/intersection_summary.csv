@@ -1,0 +1,5 @@
+Approach,Incoming_candidate_count,Max_observed_stationary_tracks,Complete_wait_samples,Average_stationary_wait_s,Maximum_stationary_wait_s
+NORTH,106,10.0,20,51.11,96.27
+EAST,72,10.0,40,29.01,116.27
+SOUTH,95,,0,,
+WEST,59,9.0,22,57.44,101.47

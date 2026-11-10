@@ -1,0 +1,7 @@
+﻿Image,Verdict,Flagged components / notes
+test_01.png,NOT OK,Output gear nut/washer suspected missing
+test_02.png,OK,No detected issues in checked parts
+test_03.png,OK,No detected issues in checked parts
+test_04.png,NOT OK,Idler circlip suspected missing
+test_05.png,OK,No detected issues in checked parts
+test_06.png,NOT OK,Idler gear suspected missing

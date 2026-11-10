@@ -1,0 +1,85 @@
+{
+  "source": "Traffic_video (2).mp4",
+  "source_note": "Input source must be documented by submitter. The provided Bellevue dataset is archived 2017 footage, not a current live recording.",
+  "video_duration_s": 608.133,
+  "source_fps": 30.0,
+  "processed_fps": 15.0,
+  "detector": "yolo11s.pt",
+  "tracker": "BoT-SORT; ReID disabled",
+  "methods": "Directed finite-segment crossings, track-ID movement matching, stationary-track queue proxy",
+  "entry_counts": {
+    "NORTH": 106,
+    "EAST": 72,
+    "SOUTH": 95,
+    "WEST": 59
+  },
+  "turning_matrix": {
+    "NORTH": {
+      "NORTH": 0,
+      "EAST": 25,
+      "SOUTH": 58,
+      "WEST": 15
+    },
+    "EAST": {
+      "NORTH": 10,
+      "EAST": 0,
+      "SOUTH": 0,
+      "WEST": 31
+    },
+    "SOUTH": {
+      "NORTH": 50,
+      "EAST": 0,
+      "SOUTH": 0,
+      "WEST": 17
+    },
+    "WEST": {
+      "NORTH": 15,
+      "EAST": 40,
+      "SOUTH": 0,
+      "WEST": 0
+    }
+  },
+  "approach_statistics": [
+    {
+      "Approach": "NORTH",
+      "Incoming_candidate_count": 106,
+      "Max_observed_stationary_tracks": 10.0,
+      "Complete_wait_samples": 20,
+      "Average_stationary_wait_s": 51.11,
+      "Maximum_stationary_wait_s": 96.27
+    },
+    {
+      "Approach": "EAST",
+      "Incoming_candidate_count": 72,
+      "Max_observed_stationary_tracks": 10.0,
+      "Complete_wait_samples": 40,
+      "Average_stationary_wait_s": 29.01,
+      "Maximum_stationary_wait_s": 116.27
+    },
+    {
+      "Approach": "SOUTH",
+      "Incoming_candidate_count": 95,
+      "Max_observed_stationary_tracks": null,
+      "Complete_wait_samples": 0,
+      "Average_stationary_wait_s": null,
+      "Maximum_stationary_wait_s": null
+    },
+    {
+      "Approach": "WEST",
+      "Incoming_candidate_count": 59,
+      "Max_observed_stationary_tracks": 9.0,
+      "Complete_wait_samples": 22,
+      "Average_stationary_wait_s": 57.44,
+      "Maximum_stationary_wait_s": 101.47
+    }
+  ],
+  "matched_movements": 261,
+  "unmatched_entry_events": 71,
+  "warnings": [
+    "Provisional counts; gates are manually estimated and must be visually audited.",
+    "Camera shadows/occlusions and track fragmentation can affect counts.",
+    "South queue/exit may be partly obscured.",
+    "Waiting time here means stationary duration, not total travel delay.",
+    "Accuracy percentage requires manual ground-truth validation."
+  ]
+}
